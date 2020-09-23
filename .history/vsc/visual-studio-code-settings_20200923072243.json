@@ -11,11 +11,13 @@
   "editor.cursorStyle": "block",
   "editor.fontSize": 14,
   "editor.fontLigatures": false,
-  "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
-  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [150],
+  "editor.rulers": [
+    150
+  ],
   "editor.tabSize": 2,
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 20,
@@ -26,48 +28,48 @@
     "suppressShowKeyBindingsNotice": true
   },
   "indentRainbow.colors": [
-    "rgba(16,16,16,0.02)",
-    "rgba(16,16,16,0.03)",
-    "rgba(16,16,16,0.05)",
-    "rgba(16,16,16,0.08)",
-    "rgba(16,16,16,0.1)"
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.6)",
+    "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.2)"
   ],
   "npm.enableScriptExplorer": true,
   "todohighlight.isCaseSensitive": true,
   "telemetry.enableTelemetry": false,
-  "todohighlight.keywords": [
-    {
+  "todohighlight.keywords": [{
       "text": "DEPRECATED",
       "color": "black",
-      "backgroundColor": "yellow"
+      "backgroundColor": "yellow",
     },
     {
       "text": "FIXME",
       "color": "white",
-      "backgroundColor": "red"
-    },
-    {
-      "text": "EDITOR",
-      "color": "white",
-      "backgroundColor": "red"
+      "backgroundColor": "red",
     },
     {
       "text": "REVIEW",
       "color": "blue",
-      "backgroundColor": "white"
+      "backgroundColor": "white",
     },
     {
       "text": "STUB",
       "color": "white",
-      "backgroundColor": "grey"
+      "backgroundColor": "grey",
     },
     {
       "text": "TODO",
       "color": "white",
-      "backgroundColor": "green"
-    }
+      "backgroundColor": "green",
+    },
   ],
-  "todo-tree.tags": ["DEPRECATED", "FIXME", "REVIEW", "EDITOR", "STUB", "TODO"],
+  "todo-tree.tags": [
+    "DEPRECATED",
+    "FIXME",
+    "REVIEW",
+    "STUB",
+    "TODO"
+  ],
   "todo-tree.customHighlight": {
     "DEPRECATED": {
       "icon": "stop",
@@ -77,9 +79,9 @@
       "icon": "alert",
       "iconColour": "red"
     },
-    "EDITOR": {
-      "icon": "alert",
-      "iconColour": "red"
+    "REVIEW": {
+      "icon": "search",
+      "iconColour": "white"
     },
     "STUB": {
       "icon": "beaker",
@@ -94,10 +96,11 @@
     "editorIndentGuide.activeBackground": "#20b0f3",
     "tab.activeBorder": "#ff0000",
     "tab.activeBackground": "#707070",
-    "titleBar.activeBackground": "#999"
+    "titleBar.activeBackground": "#999",
   },
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.opacity": 0.72,
+  "workbench.colorTheme": "_inkSea Theme",
   "git.autofetch": true,
   "git.confirmSync": false,
   "window.title": "${activeEditorLong} ${dirty}",
@@ -120,9 +123,9 @@
       "icon": "alert",
       "iconColour": "red"
     },
-    "EDITOR": {
-      "icon": "alert",
-      "iconColour": "red"
+    "REVIEW": {
+      "icon": "search",
+      "iconColour": "white"
     },
     "STUB": {
       "icon": "beaker",
@@ -137,7 +140,6 @@
     "DEPRECATED",
     "FIXME",
     "REVIEW",
-    "EDITOR",
     "STUB",
     "TODO"
   ],
@@ -145,22 +147,5 @@
   "javascript.implicitProjectConfig.checkJs": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "local-history.daysLimit": 365,
-  "local-history.maxDisplay": 10,
-  "local-history.saveDelay": 0,
-  "todo-tree.tree.showScanModeButton": false,
-  "solargraph.diagnostics": true,
-  "solargraph.completion": true,
-  "solargraph.hover": true,
-  "solargraph.formatting": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "[json]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "files.associations": {
-    "*.mdx": "markdown"
-  },
-  "window.zoomLevel": 0
+  }
 }

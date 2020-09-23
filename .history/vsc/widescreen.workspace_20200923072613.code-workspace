@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"workbench.colorTheme": "Longsight Light Theme",
+		"editor.fontSize": 16,
+		"editor.cursorStyle": "block",
+		"editor.wordWrap": "on",
+		"files.exclude": {
+			"**/.history": true
+		},
+		"files.associations": {
+			"*.mdx": "\"markdown\""
+		},
+		"editor.lineNumbers": "on",
+		"editor.cursorBlinking": "phase",
+		"editor.minimap.enabled": false,
+		"files.watcherExclude": {
+			"**/.history/**": true
+		},
+	}
+}
